@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="901,581" id="Exercice1" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030205061747465726E204F627365727665722F683430303033303733">
+  <children xsi:type="editmodel:EnumerationEditModel" name="Problem" location="460,50" size="112,125" id="Exercice1/Problem" runTimeClassModel="noProblem%,ECG%,bloodPressure%,oximetry%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,72">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="oximetry" id="Exercice1/Problem#oximetry%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="bloodPressure" id="Exercice1/Problem#bloodPressure%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ECG" id="Exercice1/Problem#ECG%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="noProblem" id="Exercice1/Problem#noProblem%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="622,50" size="75,67" id="Exercice1/Main" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="Exercice1/Main#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Subject" location="59,50" size="136,117" id="Exercice1/Subject" runTimeClassModel="removeObserver(LExercice1.Observer;),registerObserver(LExercice1.Observer;),notifyObservers()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,54">
+      <children xsi:type="editmodel:MethodEditModel" name="notifyObservers" id="Exercice1/Subject#notifyObservers()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerObserver" id="Exercice1/Subject#registerObserver(LExercice1.Observer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeObserver" id="Exercice1/Subject#removeObserver(LExercice1.Observer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PatientMonitoring" location="50,217" size="155,193" id="Exercice1/PatientMonitoring" runTimeClassModel="position,pulseOximetry,removeObserver(LExercice1.Observer;),registerObserver(LExercice1.Observer;),bloodPressure,notifyObservers(),PatientMonitoring(IIII),electroCardioGram">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="bloodPressure" id="Exercice1/PatientMonitoring#bloodPressure"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="electroCardioGram" id="Exercice1/PatientMonitoring#electroCardioGram"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="position" id="Exercice1/PatientMonitoring#position"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pulseOximetry" id="Exercice1/PatientMonitoring#pulseOximetry"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,72">
+      <children xsi:type="editmodel:MethodEditModel" name="PatientMonitoring" id="Exercice1/PatientMonitoring#PatientMonitoring(IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="notifyObservers" id="Exercice1/PatientMonitoring#notifyObservers()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerObserver" id="Exercice1/PatientMonitoring#registerObserver(LExercice1.Observer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeObserver" id="Exercice1/PatientMonitoring#removeObserver(LExercice1.Observer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/Subject&lt;-Exercice1/PatientMonitoring" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,117"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MedicalEmployee" location="255,181" size="155,85" id="Exercice1/MedicalEmployee" runTimeClassModel="MedicalEmployee(Ljava.lang.String;LExercice1.Subject;),update(ILExercice1.Problem;III)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MedicalEmployee" id="Exercice1/MedicalEmployee#MedicalEmployee(Ljava.lang.String;LExercice1.Subject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="update" id="Exercice1/MedicalEmployee#update(ILExercice1.Problem;III)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/Observer&lt;-Exercice1/MedicalEmployee" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0" name="Observer" location="283,50" size="99,81" id="Exercice1/Observer" runTimeClassModel="update(ILExercice1.Problem;III)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="update" id="Exercice1/Observer#update(ILExercice1.Problem;III)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

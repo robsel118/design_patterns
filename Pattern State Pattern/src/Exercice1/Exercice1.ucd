@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1122,763" id="Exercice1" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030205061747465726E205374617465205061747465726E2F683430303033303733">
+  <children xsi:type="editmodel:ClassEditModel" name="Program" location="237,532" size="97,67" id="Exercice1/Program" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="Exercice1/Program#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CoffeeMachine" location="50,532" size="137,211" id="Exercice1/CoffeeMachine" runTimeClassModel="cupRemoved(),coinReturn(),coinValue,problemDetected(),buttonPushed(),coffeePrice,setCoinValue(I),coinInserted(D),CoffeeMachine()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="coffeePrice" id="Exercice1/CoffeeMachine#coffeePrice"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="coinValue" id="Exercice1/CoffeeMachine#coinValue"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,126">
+      <children xsi:type="editmodel:MethodEditModel" name="CoffeeMachine" id="Exercice1/CoffeeMachine#CoffeeMachine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/CoffeeMachine#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/CoffeeMachine#coinInserted(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/CoffeeMachine#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/CoffeeMachine#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/CoffeeMachine#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCoinValue" id="Exercice1/CoffeeMachine#setCoinValue(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0" name="State" location="425,50" size="148,189" id="Exercice1/State" runTimeClassModel="resetButton(),cupRemoved(),coinReturn(),problemDetected(),buttonPushed(),rightAmountEntered(),coinInserted()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,126">
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/State#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/State#coinInserted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/State#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/State#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/State#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetButton" id="Exercice1/State#resetButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rightAmountEntered" id="Exercice1/State#rightAmountEntered()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StateServiceNeeded" location="783,289" size="172,193" id="Exercice1/StateServiceNeeded" runTimeClassModel="resetButton(),cupRemoved(),coinReturn(),problemDetected(),buttonPushed(),rightAmountEntered(),coinInserted(),StateServiceNeeded(LExercice1.CoffeeMachine;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,144">
+      <children xsi:type="editmodel:MethodEditModel" name="StateServiceNeeded" id="Exercice1/StateServiceNeeded#StateServiceNeeded(LExercice1.CoffeeMachine;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/StateServiceNeeded#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/StateServiceNeeded#coinInserted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/StateServiceNeeded#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/StateServiceNeeded#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/StateServiceNeeded#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetButton" id="Exercice1/StateServiceNeeded#resetButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rightAmountEntered" id="Exercice1/StateServiceNeeded#rightAmountEntered()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/State&lt;-Exercice1/StateServiceNeeded" source="//@children.3" target="//@children.5/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StateMakeCoffee" location="603,289" size="150,193" id="Exercice1/StateMakeCoffee" runTimeClassModel="resetButton(),cupRemoved(),StateMakeCoffee(LExercice1.CoffeeMachine;),coinReturn(),problemDetected(),buttonPushed(),coinInserted(),rightAmountEntered()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,144">
+      <children xsi:type="editmodel:MethodEditModel" name="StateMakeCoffee" id="Exercice1/StateMakeCoffee#StateMakeCoffee(LExercice1.CoffeeMachine;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/StateMakeCoffee#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/StateMakeCoffee#coinInserted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/StateMakeCoffee#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/StateMakeCoffee#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/StateMakeCoffee#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetButton" id="Exercice1/StateMakeCoffee#resetButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rightAmountEntered" id="Exercice1/StateMakeCoffee#rightAmountEntered()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/State&lt;-Exercice1/StateMakeCoffee" source="//@children.4" target="//@children.5/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StateInsertingCoins" location="50,289" size="165,193" id="Exercice1/StateInsertingCoins" runTimeClassModel="resetButton(),cupRemoved(),coinReturn(),problemDetected(),StateInsertingCoins(LExercice1.CoffeeMachine;),buttonPushed(),rightAmountEntered(),coinInserted()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,144">
+      <children xsi:type="editmodel:MethodEditModel" name="StateInsertingCoins" id="Exercice1/StateInsertingCoins#StateInsertingCoins(LExercice1.CoffeeMachine;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/StateInsertingCoins#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/StateInsertingCoins#coinInserted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/StateInsertingCoins#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/StateInsertingCoins#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/StateInsertingCoins#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetButton" id="Exercice1/StateInsertingCoins#resetButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rightAmountEntered" id="Exercice1/StateInsertingCoins#rightAmountEntered()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.3/@sourceConnections.0" autoLocated="true" id="Exercice1/State&lt;-Exercice1/StateInsertingCoins" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,189" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StateIdle" location="425,289" size="148,193" id="Exercice1/StateIdle" runTimeClassModel="resetButton(),cupRemoved(),coinReturn(),StateIdle(LExercice1.CoffeeMachine;),problemDetected(),buttonPushed(),rightAmountEntered(),coinInserted()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,144">
+      <children xsi:type="editmodel:MethodEditModel" name="StateIdle" id="Exercice1/StateIdle#StateIdle(LExercice1.CoffeeMachine;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/StateIdle#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/StateIdle#coinInserted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/StateIdle#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/StateIdle#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/StateIdle#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetButton" id="Exercice1/StateIdle#resetButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rightAmountEntered" id="Exercice1/StateIdle#rightAmountEntered()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/State&lt;-Exercice1/StateIdle" source="//@children.6" target="//@children.5/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StateUserChoose" location="245,289" size="150,193" id="Exercice1/StateUserChoose" runTimeClassModel="resetButton(),cupRemoved(),coinReturn(),problemDetected(),buttonPushed(),rightAmountEntered(),coinInserted(),StateUserChoose(LExercice1.CoffeeMachine;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,144">
+      <children xsi:type="editmodel:MethodEditModel" name="StateUserChoose" id="Exercice1/StateUserChoose#StateUserChoose(LExercice1.CoffeeMachine;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonPushed" id="Exercice1/StateUserChoose#buttonPushed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinInserted" id="Exercice1/StateUserChoose#coinInserted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coinReturn" id="Exercice1/StateUserChoose#coinReturn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cupRemoved" id="Exercice1/StateUserChoose#cupRemoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="problemDetected" id="Exercice1/StateUserChoose#problemDetected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetButton" id="Exercice1/StateUserChoose#resetButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rightAmountEntered" id="Exercice1/StateUserChoose#rightAmountEntered()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/State&lt;-Exercice1/StateUserChoose" source="//@children.7" target="//@children.5/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

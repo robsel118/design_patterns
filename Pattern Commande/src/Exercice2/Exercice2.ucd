@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1202,726" id="Exercice2" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030205061747465726E2053696E676C65746F6E2F683430303033303733">
+  <children xsi:type="editmodel:ClassEditModel" name="NoCommand" location="1055,50" size="124,85" id="Exercice2/NoCommand" runTimeClassModel="store(),execute()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,36">
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="Exercice2/NoCommand#execute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="store" id="Exercice2/NoCommand#store()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LeftIndicator" location="50,275" size="122,85" id="Exercice2/LeftIndicator" runTimeClassModel="off(),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,36">
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/LeftIndicator#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/LeftIndicator#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Brakes" location="548,275" size="85,85" id="Exercice2/Brakes" runTimeClassModel="off(),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,36">
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/Brakes#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/Brakes#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Log" location="683,275" size="96,67" id="Exercice2/Log" runTimeClassModel="writeLog(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,18">
+      <children xsi:type="editmodel:MethodEditModel" name="writeLog" id="Exercice2/Log#writeLog(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Clutch" location="532,50" size="113,121" id="Exercice2/Clutch" runTimeClassModel="gear,off(),changeGear(I),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="gear" id="Exercice2/Clutch#gear"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,54">
+      <children xsi:type="editmodel:MethodEditModel" name="changeGear" id="Exercice2/Clutch#changeGear(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/Clutch#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/Clutch#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SpeedControl" location="876,50" size="129,85" id="Exercice2/SpeedControl" runTimeClassModel="off(),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,36">
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/SpeedControl#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/SpeedControl#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="OnBoardSystemLoader" location="293,50" size="189,103" id="Exercice2/OnBoardSystemLoader" runTimeClassModel="test(LExercice2.OnBoardSystem;),main([Ljava.lang.String;),setupOnBoardSystem()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,54">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="Exercice2/OnBoardSystemLoader#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setupOnBoardSystem" id="Exercice2/OnBoardSystemLoader#setupOnBoardSystem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="test" id="Exercice2/OnBoardSystemLoader#test(LExercice2.OnBoardSystem;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="OnBoardSystem" location="50,50" size="193,175" id="Exercice2/OnBoardSystem">
+    <children xsi:type="editmodel:CompartmentEditModel" size="170,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="offCommands" id="Exercice2/OnBoardSystem#offCommands"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="onCommands" id="Exercice2/OnBoardSystem#onCommands"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,90">
+      <children xsi:type="editmodel:MethodEditModel" name="OnBoardSystem" id="Exercice2/OnBoardSystem#OnBoardSystem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="offButtonWasPushed" id="Exercice2/OnBoardSystem#offButtonWasPushed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onButtonWasPushed" id="Exercice2/OnBoardSystem#onButtonWasPushed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCommand" id="Exercice2/OnBoardSystem#setCommand(ILExercice2.Command;LExercice2.Command;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="Exercice2/OnBoardSystem#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ShortLights" location="222,275" size="114,85" id="Exercice2/ShortLights" runTimeClassModel="off(),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,36">
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/ShortLights#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/ShortLights#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LongLights" location="386,275" size="112,85" id="Exercice2/LongLights" runTimeClassModel="off(),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,36">
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/LongLights#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/LongLights#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RightIndicator" location="695,50" size="131,85" id="Exercice2/RightIndicator" runTimeClassModel="off(),on()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="44,36">
+      <children xsi:type="editmodel:MethodEditModel" name="off" id="Exercice2/RightIndicator#off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="on" id="Exercice2/RightIndicator#on()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BrakesOffCommand" location="223,452" size="168,121" id="Exercice2/BrakesOffCommand">
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="brakes" id="Exercice2/BrakesOffCommand#brakes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,54">
+      <children xsi:type="editmodel:MethodEditModel" name="BrakesOffCommand" id="Exercice2/BrakesOffCommand#BrakesOffCommand"/>
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="Exercice2/BrakesOffCommand#execute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="store" id="Exercice2/BrakesOffCommand#store()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BrakesOnCommand" location="422,410" size="168,121" id="Exercice2/BrakesOnCommand">
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="brakes" id="Exercice2/BrakesOnCommand#brakes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,54">
+      <children xsi:type="editmodel:MethodEditModel" name="BrakesOnCommand" id="Exercice2/BrakesOnCommand#BrakesOnCommand"/>
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="Exercice2/BrakesOnCommand#execute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="store" id="Exercice2/BrakesOnCommand#store()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

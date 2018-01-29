@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="929,644" id="Exercice1" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030205061747465726E2054656D706C6174652F683430303033303733">
+  <children xsi:type="editmodel:ClassEditModel" name="RestaurantTests" location="426,50" size="141,67" id="Exercice1/RestaurantTests" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="Exercice1/RestaurantTests#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SwissRestaurant" location="50,257" size="146,157" id="Exercice1/SwissRestaurant" runTimeClassModel="prepareCheese(),preparDessert(),prepareCoffee(),prepareVegetables(),prepareMainMenu(),SwissRestaurant(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,108">
+      <children xsi:type="editmodel:MethodEditModel" name="SwissRestaurant" id="Exercice1/SwissRestaurant#SwissRestaurant(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="preparDessert" id="Exercice1/SwissRestaurant#preparDessert()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareCheese" id="Exercice1/SwissRestaurant#prepareCheese()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareCoffee" id="Exercice1/SwissRestaurant#prepareCoffee()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareMainMenu" id="Exercice1/SwissRestaurant#prepareMainMenu()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareVegetables" id="Exercice1/SwissRestaurant#prepareVegetables()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0" autoLocated="true" id="Exercice1/Restaurant&lt;-Exercice1/SwissRestaurant" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,157" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ItalianRestaurant" location="226,257" size="150,157" id="Exercice1/ItalianRestaurant" runTimeClassModel="ItalianRestaurant(Ljava.lang.String;),prepareCheese(),preparDessert(),prepareCoffee(),prepareVegetables(),prepareMainMenu()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,108">
+      <children xsi:type="editmodel:MethodEditModel" name="ItalianRestaurant" id="Exercice1/ItalianRestaurant#ItalianRestaurant(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="preparDessert" id="Exercice1/ItalianRestaurant#preparDessert()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareCheese" id="Exercice1/ItalianRestaurant#prepareCheese()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareCoffee" id="Exercice1/ItalianRestaurant#prepareCoffee()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareMainMenu" id="Exercice1/ItalianRestaurant#prepareMainMenu()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareVegetables" id="Exercice1/ItalianRestaurant#prepareVegetables()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Exercice1/Restaurant&lt;-Exercice1/ItalianRestaurant" source="//@children.2" target="//@children.1/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Restaurant" location="139,50" size="145,157" id="Exercice1/Restaurant" runTimeClassModel="prepareCheese(),preparDessert(),prepareDinner(),prepareCoffee(),prepareVegetables(),prepareMainMenu()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,108">
+      <children xsi:type="editmodel:MethodEditModel" name="preparDessert" id="Exercice1/Restaurant#preparDessert()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareCheese" id="Exercice1/Restaurant#prepareCheese()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareCoffee" id="Exercice1/Restaurant#prepareCoffee()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareDinner" id="Exercice1/Restaurant#prepareDinner()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareMainMenu" id="Exercice1/Restaurant#prepareMainMenu()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prepareVegetables" id="Exercice1/Restaurant#prepareVegetables()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
